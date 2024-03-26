@@ -1,1 +1,1 @@
-# Home_Sales
+In this challenge I used SparkSQL to evaluate home sales data. I read the data into a Spark DataFrame and then created a temporary table. I was then able to query for specified questions with the use of SparkSQL. The temporary table was then cached and a query was run to compare runtime with the uncached data. Next I partitioned the data and repeated the process of querying anf comparing runtime. The temporary table was finally uncached. The final query using the parquet data was the fastest runtime.
